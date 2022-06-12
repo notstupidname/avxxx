@@ -301,15 +301,22 @@ body {
 
 /* Header */
 
-#header a:not(:first-child) {
+#header a {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 1em;
 }
 
-#header a:last-child {
-    padding-right: 0;
-}
+    #header a.current {
+        text-decoration: underline;
+    }
+
+    #header a:not(:first-child) {
+        padding: 0 1em;
+    }
+
+    #header a:last-child {
+        padding-right: 0;
+    }
 
 #header .logo {
     margin-right: auto;
@@ -325,7 +332,7 @@ body {
         flex-direction: column;
         justify-content: space-between;
         /* padding: 1em; */
-        min-height: 15vh;
+        min-height: 20vh;
     }
 
     #header .logo {
@@ -366,8 +373,8 @@ body.index {
     }
 
     #banner h1 {
-        position: relative;
-        bottom: 8rem;
+        position: absolute;
+        bottom: 2rem;
         padding: 0 2rem;
         font-size: 4rem;
         line-height: 1em;
