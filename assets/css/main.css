@@ -304,6 +304,7 @@ body {
 #header a {
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
     #header a.current {
