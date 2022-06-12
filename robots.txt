@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Host: https://avxxx.notstupid.name
+Sitemap: https://avxxx.notstupid.name/sitemap.xml
