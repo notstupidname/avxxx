@@ -386,3 +386,22 @@ body.index {
             font-size: 2rem;
         }
     }
+
+/* Items Grid */
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item {
+    aspect-ratio: 8 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }

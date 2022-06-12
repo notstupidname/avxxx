@@ -6,5 +6,22 @@ permalink: /portfolio/
 ---
 
 
-<main id="main"><h1>Body</h1></main>
+<main id="main">
+    <section class="items">
+        <a href="/portfolio/project" class="item">
+            <img src="/images/pic169_2.jpg"/>
+            <div class="caption">
+                <h3>Очень длинное название проекта прям точно на две строки</h3>
+                <p>д. Нижние залупки</p>
+            </div>
+        </a>
+        <a href="/portfolio/project" class="item">
+            <img src="/images/pic1.jpg"/>
+            <div class="caption">
+                <h3>Очень длинное название проекта прям точно на две строки</h3>
+                <p>д. Нижние залупки</p>
+            </div>
+        </a>
+    </section>
+</main>
 
