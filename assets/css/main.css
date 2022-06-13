@@ -623,7 +623,7 @@ body.project #banner {
             text-decoration: none;
         }
 
-        #contact-grid ul li a svg {
+        #contact-grid svg {
             padding-right: 0.5em;
         }
 
@@ -631,6 +631,7 @@ body.project #banner {
 
     #contact-grid {
         grid-template-columns: 1fr;
+        padding: 0;
     }
 
 }
