@@ -11,7 +11,7 @@ permalink: /portfolio/
         <a href="/portfolio/project" class="item">
             <img src="/images/pic169_2.jpg"/>
             <div class="caption">
-                <h3>Очень длинное название проекта прям точно на две строки</h3>
+                <h3>Комплекс апартаментов в крыму</h3>
                 <p>д. Нижние залупки</p>
             </div>
         </a>
