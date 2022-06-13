@@ -338,8 +338,9 @@ body {
 }
 
 #footer {
-    background-color: #444;
     padding: 2rem;
+    opacity: 0.5;
+    font-size: 80%;
 }
 
 /* Header */
@@ -407,6 +408,7 @@ body.index {
     left: 0;
     height: 100%;
     width: 100%;
+    background-color: #000;
 }
 
     #banner img {
@@ -422,6 +424,7 @@ body.index {
         padding: 0 2rem;
         font-size: 3rem;
         line-height: 1.1em;
+        color: #fff;
     }
 
     @media screen and (max-width: 480px) {
@@ -462,6 +465,11 @@ body.index {
             text-transform: none;
         }
 
+.item:nth-child(0n+1) .caption,
+.item:nth-child(0n+2) .caption {
+    padding-top: 0;
+}
+
 .item:nth-child(4n+3),
 .item:nth-child(4n+4) {
     direction: rtl;
@@ -481,6 +489,10 @@ body.index {
     .item:nth-child(even) {
         direction: rtl;
     }
+
+    .item:nth-child(0n+2) .caption {
+        padding-top: 1rem;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -493,6 +505,10 @@ body.index {
         grid-template-rows: 2fr 1fr;
         grid-template-columns: 1fr;
         direction: ltr;
+    }
+
+    .item:nth-child(0n+1) .caption {
+        padding-top: 1rem;
     }
 
     .item:nth-child(4n+3),
@@ -524,15 +540,54 @@ body.project #banner {
     padding: 2rem;
 }
 
+#project-photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 2.5rem 2rem;
+    grid-auto-flow: dense;
+}
+
+    #project-photo > .big {
+        grid-column: span 2;
+    }
+
 @media screen and (max-width: 1280px) {
-    
+
     #project-wrapper {
         grid-template-columns: 1fr;
     }
+
+    #project-photo {
+        grid-template-columns: 1fr;
+        gap: 2.5rem 0;
+        padding: 2rem 0;
+    }
+
+        #project-photo > .big {
+            grid-column: span 1;
+        }
+}
+/* Image */
+
+.image {
+    border: 0;
+    display: inline-block;
+    position: relative;
 }
 
-#project-photo {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 2rem;
-}
+    .image img {
+        display: block;
+    }
+
+    .image.fit {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+        .image.fit img {
+            width: 100%;
+        }
+

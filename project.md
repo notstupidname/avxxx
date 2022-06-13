@@ -40,10 +40,10 @@ permalink: /portfolio/project
         </div>
     </div>
     <div id="project-photo">
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
+        <img class="image fit" src="/images/pic169_3.jpg">
+        <img class="image fit" src="/images/pic169_3.jpg">
+        <img class="image fit big" src="/images/pic169_3.jpg">
+        <img class="image fit" src="/images/pic169_3.jpg">
+        <img class="image fit" src="/images/pic169_3.jpg">
     </div>
 </main>
