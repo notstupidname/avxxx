@@ -18,7 +18,7 @@ permalink: /portfolio/
         <a href="/portfolio/project" class="item">
             <img src="/images/pic1.jpg"/>
             <div class="caption">
-                <h3>Очень длинное название проекта прям точно на две строки</h3>
+                <h3>Короткое название</h3>
                 <p>д. Нижние залупки</p>
             </div>
         </a>
@@ -30,14 +30,14 @@ permalink: /portfolio/
             </div>
         </a>
         <a href="/portfolio/project" class="item">
-            <img src="/images/pic1.jpg"/>
+            <img src="/images/pic2.jpg"/>
             <div class="caption">
-                <h3>Очень длинное название проекта прям точно на две строки</h3>
+                <h3>Короткое название</h3>
                 <p>д. Нижние залупки</p>
             </div>
         </a>
         <a href="/portfolio/project" class="item">
-            <img src="/images/pic169_2.jpg"/>
+            <img src="/images/pic169_3.jpg"/>
             <div class="caption">
                 <h3>Очень длинное название проекта прям точно на две строки</h3>
                 <p>д. Нижние залупки</p>
