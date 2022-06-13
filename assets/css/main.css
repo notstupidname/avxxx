@@ -333,7 +333,7 @@ body {
         flex-direction: column;
         justify-content: space-between;
         /* padding: 1em; */
-        min-height: 20vh;
+        min-height: 15vh;
     }
 
     #header .logo {
@@ -398,6 +398,8 @@ body.index {
     aspect-ratio: 8 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-decoration: none;
+    text-transform: none;
 }
 
     .item img {
@@ -405,3 +407,51 @@ body.index {
         height: 100%;
         object-fit: cover;
     }
+
+    .item .caption {
+        padding: 1rem 2rem;
+    }
+
+        .item .caption h3 {
+            margin: 0 0 1rem 0;
+            text-transform: none;
+        }
+
+.item:nth-child(4n+3),
+.item:nth-child(4n+4) {
+    direction: rtl;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .items {
+        grid-template-columns: 1fr;
+    }
+
+    .item:nth-child(4n+3),
+    .item:nth-child(4n+4) {
+        direction: ltr;
+    }
+
+    .item:nth-child(even) {
+        direction: rtl;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .item {
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
+        direction: ltr;
+    }
+
+    .item:nth-child(4n+3),
+    .item:nth-child(4n+4) {
+        direction: ltr;
+    }
+
+    .item:nth-child(even) {
+        direction: ltr;
+    }
+}
