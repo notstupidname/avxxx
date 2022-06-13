@@ -634,4 +634,8 @@ body.project #banner {
         padding: 0;
     }
 
+    #contact-grid > ul {
+        padding: 0 2rem;
+    }
+
 }
