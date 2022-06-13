@@ -377,7 +377,7 @@ body.index {
         position: absolute;
         bottom: 2rem;
         padding: 0 2rem;
-        font-size: 4rem;
+        font-size: 3rem;
         line-height: 1em;
     }
 
@@ -460,4 +460,16 @@ body.index {
     .item:nth-child(even) {
         direction: ltr;
     }
+}
+
+/* Project */
+
+body.project #header {
+    position: absolute;
+    width: calc(100% - 4rem);
+}
+
+body.project #banner {
+    position: relative;
+    height: 100vh;
 }
