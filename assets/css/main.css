@@ -537,7 +537,7 @@ body.project #banner {
     display: grid;
     gap: 2rem;
     grid-template-columns: 3fr 1fr;
-    padding: 2rem;
+    padding: 4rem 2rem;
 }
 
 #project-photo {
