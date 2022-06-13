@@ -6,7 +6,7 @@ permalink: /portfolio/project
 ---
 
 <div id="banner">
-    <img src="/images/pic169_3.jpg">
+    <img src="/images/kondominium-v-krymu-08.jpg">
     <h1>Комплекс апартаментов в крыму</h1>
 </div>
 <main id="main">
@@ -40,10 +40,12 @@ permalink: /portfolio/project
         </div>
     </div>
     <div id="project-photo">
-        <img class="image fit" src="/images/pic169_3.jpg">
-        <img class="image fit" src="/images/pic169_3.jpg">
-        <img class="image fit big" src="/images/pic169_3.jpg">
-        <img class="image fit" src="/images/pic169_3.jpg">
-        <img class="image fit" src="/images/pic169_3.jpg">
+        <img class="image fit" src="/images/kondominium-v-krymu-01.jpg">
+        <img class="image fit" src="/images/kondominium-v-krymu-02.jpg">
+        <img class="image fit big" src="/images/kondominium-v-krymu-03.jpg">
+        <img class="image fit" src="/images/kondominium-v-krymu-04.jpg">
+        <img class="image fit" src="/images/kondominium-v-krymu-05.jpg">
+        <img class="image fit big" src="/images/kondominium-v-krymu-06.jpg">
+        <img class="image fit" src="/images/kondominium-v-krymu-07.jpg">
     </div>
 </main>
