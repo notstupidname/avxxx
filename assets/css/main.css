@@ -326,7 +326,7 @@ body {
 #header {
     min-height: 3rem;
     /* background-color: #222; */
-    padding: 2rem;
+    padding: 2rem 4rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -338,7 +338,7 @@ body {
 }
 
 #footer {
-    padding: 2rem;
+    padding: 2rem 4rem;
     opacity: 0.5;
     font-size: 80%;
 }
@@ -368,7 +368,20 @@ body {
 }
 
 #header .logo svg {
-    height: 3em;
+    height: 2.5em;
+}
+
+@media screen and (max-width: 700px) {
+
+    #header {
+        padding: 2rem;
+    }
+
+    
+    #footer {
+        padding: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -421,15 +434,16 @@ body.index {
     #banner h1 {
         position: absolute;
         bottom: 2rem;
-        padding: 0 2rem;
+        padding: 0 4rem;
         font-size: 3rem;
         line-height: 1.1em;
         color: #fff;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 700px) {
         #banner h1 {
             font-size: 2rem;
+            padding: 0 2rem;
         }
     }
 
@@ -438,7 +452,7 @@ body.index {
 .items {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 
 .item {
@@ -525,7 +539,15 @@ body.index {
 
 body.project #header {
     position: absolute;
-    width: calc(100% - 4rem);
+    width: calc(100% - 8rem);
+}
+
+@media screen and (max-width: 700px) {
+
+    body.project #header {
+        width: calc(100% - 4rem);
+    }
+
 }
 
 body.project #banner {
@@ -537,13 +559,13 @@ body.project #banner {
     display: grid;
     gap: 2rem;
     grid-template-columns: 3fr 1fr;
-    padding: 4rem 2rem;
+    padding: 4rem;
 }
 
 #project-photo {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
+    padding: 2rem 4rem;
     gap: 2.5rem 2rem;
     grid-auto-flow: dense;
 }
@@ -567,6 +589,14 @@ body.project #banner {
         #project-photo > .big {
             grid-column: span 1;
         }
+}
+
+@media screen and (max-width: 700px) {
+
+    #project-wrapper {
+        padding: 4rem 2rem;
+    }
+
 }
 /* Image */
 
@@ -611,7 +641,7 @@ body.project #banner {
 #contact-grid {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    padding: 0 2rem;
+    padding: 0 4rem;
     gap: 2rem;
 }
 
