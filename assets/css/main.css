@@ -326,7 +326,7 @@ body {
 #header {
     min-height: 3rem;
     /* background-color: #222; */
-    padding: 2rem 4rem;
+    padding: 3rem 4rem 2rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
